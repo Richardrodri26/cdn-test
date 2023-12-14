@@ -1,5 +1,5 @@
-// import * as yup from 'https://cdn.jsdelivr.net/npm/yup@1.3.2/index.min.js'
-import * as yup from 'yup'
+import * as yup from 'https://cdn.jsdelivr.net/npm/yup@1.3.2/index.min.js'
+// import * as yup from 'yup'
 const sum = (a, b) => a + b;
 
 const schema = yup.object({
