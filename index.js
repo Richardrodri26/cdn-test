@@ -5,7 +5,12 @@ const schema = yup.object({
     // docNumber: controller.validateDocNumber("docType")
 })
 
+const object = { 
+    "a": "hola"
+}
+
 export default {
     sum,
-    schema
+    schema,
+    object
 }
