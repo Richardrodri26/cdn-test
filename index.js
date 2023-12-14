@@ -2,7 +2,7 @@ import * as yup from ' yup'
 const sum = (a, b) => a + b;
 
 const schema = yup.object({
-    docType: controller.string().required("El tipo de documento es requerido"),
+    docType: yup.string().required("El tipo de documento es requerido"),
     // docNumber: controller.validateDocNumber("docType")
 })
 
