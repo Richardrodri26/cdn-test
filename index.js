@@ -1,4 +1,4 @@
-import * as yup from ' yup'
+import * as yup from 'yup'
 const sum = (a, b) => a + b;
 
 const schema = yup.object({
